@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#contenedor{
+	width:865px;
+	height:350px;
+	border:10px solid #00C1F2;
+	margin:0 auto;
+	background:url(../imagenes/fondoparafacebook.jpg) no-repeat;
+	position:relative;
+	overflow: hidden;
+}
+
+#mariposanaranja{
+	width:216px;
+	height:193px;
+	background:url(../imagenes/mariposanaranja.png) no-repeat;
+	position:absolute;
+	top:135px;
+	left:388px;
+	animation:mariposanaranja 15s infinite;
+	-moz-animation:mariposanaranja 15s infinite;
+	-o-animation:mariposanaranja 15s infinite;
+	-webkit-animation:mariposanaranja 15s infinite;
+	overflow: hidden;
+}
+#mariposamorada{
+	width:164px;
+	height:154px;
+	background:url(../imagenes/mariposamorada.png) no-repeat;
+	position:absolute;
+	top: 200px;
+	left:401px;
+	animation:mariposamorada 5s infinite;
+	-moz-animation:mariposamorada 5s infinite;
+	-o-animation:mariposamorada 5s infinite;
+	-webkit-animation:mariposamorada 5s infinite;
+	
+}
+#pajaritoazul{
+	width:160px;
+	height:140px;
+	background:url(../imagenes/pajaritoazul.png) no-repeat;
+	position:absolute;/*obligatorio absoluta en las imagenes para animar*/
+	top:120px;
+	left:95px;
+	animation: pajaritoazul 5s infinite;
+	-moz-animation: pajaritoazul 5s infinite;
+	-o-animation: pajaritoazul 5s infinite;
+	-webkit-animation: pajaritoazul 5s infinite;
+	
+}
+/*****************************************************ANIMACIONES**********************************/
+/******************No funciona con from y to usé porcentajes******************/
+
+@keyframes mariposanaranja {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+@-moz-keyframes mariposanaranja {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+@-o-keyframes mariposanaranja {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+
+@-webkit-keyframes mariposanaranja {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+/*.....................................................................................................................................................................................*/
+@keyframes mariposamorada {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+@-moz-keyframes mariposamorada {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+@-o-keyframes mariposamorada {
+	0% {left:159px; top:135px;}	
+	100% {left:1010px; top:-139px;}
+}
+@-webkit-keyframes mariposamorada {
+	0% {left:159px; top:135px;}	
+	
+}
+/*La mariposa morada originalmente tenía 4 recorridos no se usa from ni to sino porcentajes*/
+/*................................pajarito subiendo............................................*/
+@keyframes pajaritoazul {
+	0% {left:125px; top:225px;}
+	
+}
+@-moz-keyframes pajaritoazul {
+	0% {left:125px; top:225px;}
+}	
+
+@-o-keyframes pajaritoazul {
+	0% {left:125px; top:225px;}
+	
+}
+@-webkit-keyframes pajaritoazul {
+	 0% {left:125px; top:225px;}
+	
+}
+/*Enlace para ver video tutorial https://www.youtube.com/watch?feature=player_embedded&v=LeFmCLBgAeg*/
