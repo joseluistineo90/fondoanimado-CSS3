@@ -30,10 +30,10 @@
 	position:absolute;
 	top: 200px;
 	left:401px;
-	animation:mariposamorada 5s infinite;
-	-moz-animation:mariposamorada 5s infinite;
-	-o-animation:mariposamorada 5s infinite;
-	-webkit-animation:mariposamorada 5s infinite;
+	animation:mariposamorada 8s infinite;
+	-moz-animation:mariposamorada 8s infinite;
+	-o-animation:mariposamorada 8s infinite;
+	-webkit-animation:mariposamorada 8s infinite;
 	
 }
 #pajaritoazul{
@@ -84,6 +84,10 @@
 }
 @-webkit-keyframes mariposamorada {
 	0% {left:159px; top:135px;}	
+	50% {left:300px; top:-139px;}
+	75% {left:500px; top:180px;}
+	100% {left:800px; top:-150px;}
+	
 	
 }
 /*La mariposa morada originalmente tenía 4 recorridos no se usa from ni to sino porcentajes*/
